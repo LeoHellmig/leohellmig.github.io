@@ -22,4 +22,3 @@ Lichgate is the combined efforts of me and my team. With 6 programmers and 6 des
 
 
 Created in our own custom engine [Coral Engine](../coral-engine) 
-
