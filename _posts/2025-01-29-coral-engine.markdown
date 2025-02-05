@@ -1,14 +1,14 @@
 ---
 layout: post
-title: Coral Engine
-date: 2023-06-14 00:00:00 +0100
-description: Coral Engine is a custom made C++ engine by a group of 6 students. # Add post description (optional)
-img: coral-engine.png # Add image post (optional)
+title: Coral Engine & Lichgate
+date: 2024-02-19 00:00:00 +0100
+description: Coral engine made by 6 students, and Lichgate built within Coral engine by 10 students. # Add post description (optional)
+img: lichgate.png # Add image post (optional)
 tags: [C++, Engine, Animation, Gameplay] # add tag
 
-team_size: 6
+team_size: 10
 platforms: Windows & PS5
-duration: 8 weeks
+duration: 16 weeks
 
 ---
 
@@ -16,14 +16,13 @@ duration: 8 weeks
   <iframe width="560" height="315" src="https://www.youtube.com/embed/Z4UFHaJ_ulQ?si=1LSgzoy8_2Ge7DN0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 </div>
 
-Coral Engine is a custom engine created by 6 students. 
+<div class="post-video-container" style="display:flex; flex-direction: row; justify-content: center; align-items: center">
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/QzNdgcYAYl4?si=wdbvH2UHfL4PfGgw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
 
-Contributions:
-- Audio
-- Animations
-- Gameplay
-- UI 
+Coral Engine is a custom engine created by 6 students. Which was later used to create [Lichgate](2025-01-29-lichgate.markdown).
 
+Coral is open source 😀 -> 
 [Link to github repository](https://github.com/GuusKemperman/CoralEngine)
 
 
@@ -38,8 +37,6 @@ Contributions:
 - Integrated Assimp to replace TinyGLTF allowing for more file formats to be loaded.
 - Working around and learning the asset loading and management system present in the engine.
 - Serializing 3D models using Cereal and the custom binary serializer already present
-
-🎥 [Before and after content]
 
 🛠 Technologies: C++, GSON, Assimp, Cereal
 
@@ -56,9 +53,9 @@ Contributions:
 - Extending the rendering pipeline for **DX12 and PS5** to render animated meshes 
 - Support for **animation blending** and attaching entities to animated bones
 
-🎥 [Before and after content]
-
 🛠 Technologies: C++, EnTT, Assimp, DirectX 12, PS5 renderer, hlsl
+
+<video controls src="../assets/vid/LichgateSkeleton.mp4" title="Title"></video> 
 
 ## Audio Module 🎵
 
@@ -71,7 +68,9 @@ Contributions:
 - Bound functions to allow for playing audio through the visual scripting.
 - Efficient handling of sounds and events.
 
-🎥 [Before and after content]
+Note that the sound design was not done by me.
+
+<video controls src="../assets/vid/LichgateGameplay.mp4" title="Title"></video>
 
 🛠 Technologies: C++, EnTT, FMOD
 
@@ -81,10 +80,9 @@ Contributions:
 
 ### Key Features & Challenges
 
-- Camera and player movement
+- Smooth camera and player movement
 - Tweaking and making player movement feel and look good
-- 
 
-🎥 [Before and after content]
+<video controls src="../assets/vid/LichgateSorcerer.mp4" title="Title"></video>
 
 🛠 Technologies: C++, Visual Scripting 

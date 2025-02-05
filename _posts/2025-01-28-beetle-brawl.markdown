@@ -22,9 +22,25 @@ duration: 8 weeks
 
 Beetle brawl is a student project developed by first year students at Breda University of Applied Sciences in 2023.
 
-This Unreal Engine project served as my springboard into team and product oriented game development. During this project I explored what Unreal Engine had to offer. I learnt the ways of collaborating in a multi-disciplinary team by applying the SCRUM methodology and using Perforce as our source control solution. In this project I was mainly responsible for Levels, UI, Audio.
+This Unreal Engine project served as my springboard into team and product oriented game development. 
+
+This project was my first endeavour into Unreal Engine.
+
+I learnt the ways of collaborating in a multi-disciplinary team by applying the SCRUM methodology and using Perforce as our source control solution.
 
 # My Contribution
+
+## Sounds and music 🔊
+
+💡 *Developed and implemented sounds for the game*
+
+### Key Features & Challenges
+
+- Menu music implemented using Meta Sounds
+- Designed sounds for impactful feedback
+- Varied sound effects using Meta Sounds
+
+🛠 Technologies: Blueprints, Meta Sounds
 
 ## UI 🖱️
 
@@ -32,38 +48,23 @@ This Unreal Engine project served as my springboard into team and product orient
 
 ### Key Features & Challenges
 
-- 
-- 
-- 
+- Functional Menu UI 
+- Responsive in game UI
 
-🎥 [Before and after content]
+![alt text](../assets/img/BeetleBrawlUI.png)
+
+![alt text](../assets/img/BeetleBrawlMenu.png)
 
 🛠 Technologies: Blueprints, UMG
 
-##  🔊
+## Gameplay Programming 🔊
 
-💡 **
+💡 *Created fundamental systems for the game*
 
 ### Key Features & Challenges
 
-- 
-- 
-- 
-
-🎥 [Before and after content]
+- Level loading and transitioning
+- Optimized level loading for performance
 
 🛠 Technologies: Blueprints
 
-## Sounds and music 🔊
-
-💡 *Developed and implemented a sound track using Meta Sounds*
-
-### Key Features & Challenges
-
-- 
-- 
-- 
-
-🎥 [Before and after content]
-
-🛠 Technologies: Blueprints, Meta Sounds

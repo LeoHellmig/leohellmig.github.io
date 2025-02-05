@@ -8,7 +8,7 @@ tags: [C++, FMOD, ] # add tag
 
 team_size: 10
 platforms: Steam Deck & Windows
-duration: 16 out of 32 weeks
+duration: 16 weeks so far
 
 ---
 
@@ -20,33 +20,7 @@ So far the focus has been on the engine which the game will be built on top of.
 The game targets the steam deck as its main platform. But the game will most likely be playable on Windows machines as well.
 Because of this the team decided to make use of CLion as our IDE and CMake as our build system.
 
-The building blocks of the engine are:
-
-- Application/window
-- Input
-- Audio
-- Ecs
-- Inspector / Editor
-- Gameplay
-- Physics
-- Renderer
-- UI
-- Scripting
-- Steam integration
-
-Tools used alongside the engine:
-
-- Tracy profiler
-- Radeon GPU Profiler
-- Renderdoc
-
-My contributions:
-
-- Audio system
-- ECS Integration
-- Gameplay programming
-- Engine programming
-- Adding Tracy profiler
+The engine is open source 😀 -> [Github repository](https://github.com/BredaUniversityGames/Y2024-25-PR-BB)
 
 # My Contributions
 
@@ -71,12 +45,12 @@ My contributions:
 ### Key Features & Challenges
 
 - Integrated FMOD into the engine for **3D spatialized sound** and dynamic audio effects
-- Developed an **event-driven system** to handle sound playback efficiently
 - Debugged and optimized audio playing issues, for seamless audio playing
 
-🎥 [Audio Showcase]
-🛠 Technologies: C++, FMOD, ECS
 
+
+🎥 [Audio Showcase]
+🛠 Technologies: C++, FMOD, ECS, CMake
 
 ## Gameplay programming 🎮
 
@@ -87,7 +61,6 @@ My contributions:
 - Implemented various systems to aid in future gameplay programming
 - Created scripting bindings for various modules to extend the Engine API in scripts
 
-🎥 [Gameplay demos]
 🛠 Technologies: C++, ECS
 
 ## Engine Programming 🛠️
@@ -100,7 +73,11 @@ My contributions:
 - Inspector module for inspecting and altering values on the fly
 - Collaborated on **modular engine architecture**
 
-🛠 Technologies: C++, Tracy, Dear ImGui
+![Engine modules](../assets/img/BlightspireModules.png)
+
+![Inspector](../assets/img/BlighspireInspector.png)
+
+🛠 Technologies: C++, Tracy, Dear ImGui, CMake
 
 
 
