@@ -1,10 +1,10 @@
 ---
 layout: post
 title: Blightspire
-date: 2023-06-14 00:00:00 +0100
+date: 2024-09-02 00:00:00 +0100
 description: Blightspire is a game developed in a student made custom game engine. # Add post description (optional)
-img: rays-cave.png # Add image post (optional)
-tags: [C++, FMOD, ] # add tag
+img: Blightspire.png # Add image post (optional)
+tags: [C++, FMOD, CMake, Tracy, EnTT ] # add tag
 
 team_size: 10
 platforms: Steam Deck & Windows
@@ -26,15 +26,15 @@ The engine is open source 😀 -> [Github repository](https://github.com/BredaUn
 
 ## ECS Integration ⚙️
 
-💡 *Using EnTT for convenience and familiarity*
+💡 *Using EnTT for efficiency, convenience and familiarity*
 
 ### Key Features & Challenges
 
 - Integrated EnTT into the engine to suit our current and future needs in the engine. 
 - Designed and implemented a **Scene hierarchy system** through the use of components. Which allows for hierarchical relationships and transformations between entities.
-- Implemented an entity editor window using Dear ImGui
+- Integrated an entity editor window using Dear ImGui
 
-🎥 [Before and after content]
+![alt text](../assets/img/BlightSpireECS.png)
 
 🛠 Technologies: C++, EnTT, Dear ImGui
 
@@ -47,7 +47,7 @@ The engine is open source 😀 -> [Github repository](https://github.com/BredaUn
 - Integrated FMOD into the engine for **3D spatialized sound** and dynamic audio effects
 - Debugged and optimized audio playing issues, for seamless audio playing
 
-
+<video controls src="../assets/vid/BlightSpireAudio.mp4" title="Title"></video>
 
 🎥 [Audio Showcase]
 🛠 Technologies: C++, FMOD, ECS, CMake

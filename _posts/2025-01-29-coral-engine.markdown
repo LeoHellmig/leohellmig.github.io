@@ -20,7 +20,8 @@ duration: 16 weeks
   <iframe width="560" height="315" src="https://www.youtube.com/embed/QzNdgcYAYl4?si=wdbvH2UHfL4PfGgw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 </div>
 
-Coral Engine is a custom engine created by 6 students. Which was later used to create [Lichgate](2025-01-29-lichgate.markdown).
+Coral Engine is a custom engine created by 6 students. 
+Which was later used to create Lichgate, created by 10 students.
 
 Coral is open source 😀 -> 
 [Link to github repository](https://github.com/GuusKemperman/CoralEngine)
