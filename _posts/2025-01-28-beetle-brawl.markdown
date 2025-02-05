@@ -15,12 +15,55 @@ duration: 8 weeks
 <div class="post-video-container">
   <video controls volume="0.5">
     <source src="../assets/vid/beetle-brawl.mp4" type="video/mp4">
-    Your browser does not support the video tag.
   </video>
 </div>
 
+[Beetle Brawl on Itch.io](https://harrybaas.itch.io/beetlebrawl)
+
 Beetle brawl is a student project developed by first year students at Breda University of Applied Sciences in 2023.
 
-This Unreal Engine project served as my springboard into team oriented and product oriented development. During this project I explored what Unreal Engine had to offer. I learnt the ways of collaborating in a multi-disciplinary team by applying the SCRUM methodology and using Perforce as our source control solution. In this project I was mainly responsible for Levels, UI, Audio.
+This Unreal Engine project served as my springboard into team and product oriented game development. During this project I explored what Unreal Engine had to offer. I learnt the ways of collaborating in a multi-disciplinary team by applying the SCRUM methodology and using Perforce as our source control solution. In this project I was mainly responsible for Levels, UI, Audio.
 
-[Beetle Brawl on Itch.io](https://harrybaas.itch.io/beetlebrawl)
+# My Contribution
+
+## UI 🖱️
+
+💡 *Developed a simple to use and clean UI using UMG*
+
+### Key Features & Challenges
+
+- 
+- 
+- 
+
+🎥 [Before and after content]
+
+🛠 Technologies: Blueprints, UMG
+
+##  🔊
+
+💡 **
+
+### Key Features & Challenges
+
+- 
+- 
+- 
+
+🎥 [Before and after content]
+
+🛠 Technologies: Blueprints
+
+## Sounds and music 🔊
+
+💡 *Developed and implemented a sound track using Meta Sounds*
+
+### Key Features & Challenges
+
+- 
+- 
+- 
+
+🎥 [Before and after content]
+
+🛠 Technologies: Blueprints, Meta Sounds

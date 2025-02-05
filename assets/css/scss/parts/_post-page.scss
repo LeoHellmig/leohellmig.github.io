@@ -18,6 +18,19 @@
   }
 }
 
+.post-video-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px auto;
+  
+  video {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px; // Optional: Adds rounded corners
+  }
+}
+
 .page-cover-image {
   position: relative;
   padding: 0;
