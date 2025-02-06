@@ -47,7 +47,9 @@ The engine is open source 😀 -> [Github repository](https://github.com/BredaUn
 - Integrated FMOD into the engine for **3D spatialized sound** and dynamic audio effects
 - Debugged and optimized audio playing issues, for seamless audio playing
 
-<video controls src="../assets/vid/BlightSpireAudio.mp4" title="Title"></video>
+<video class="post-video-container" controls title="Title">
+    <source src="../assets/vid/BlightSpireAudio.mp4" type="video/mp4">
+</video>
 
 🎥 [Audio Showcase]
 🛠 Technologies: C++, FMOD, ECS, CMake

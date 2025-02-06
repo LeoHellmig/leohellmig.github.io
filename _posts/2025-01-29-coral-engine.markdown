@@ -56,7 +56,7 @@ Coral is open source 😀 ->
 
 🛠 Technologies: C++, EnTT, Assimp, DirectX 12, PS5 renderer, hlsl
 
-<video controls src="../assets/vid/LichgateSkeleton.mp4" title="Title"></video> 
+<video class="post-video-container" controls src="../assets/vid/LichgateSkeleton.mp4" title="Title"></video> 
 
 ## Audio Module 🎵
 
@@ -71,7 +71,7 @@ Coral is open source 😀 ->
 
 Note that the sound design was not done by me.
 
-<video controls src="../assets/vid/LichgateGameplay.mp4" title="Title"></video>
+<video class="post-video-container" controls src="../assets/vid/LichgateGameplay.mp4" title="Title"></video>
 
 🛠 Technologies: C++, EnTT, FMOD
 
@@ -84,6 +84,6 @@ Note that the sound design was not done by me.
 - Smooth camera and player movement
 - Tweaking and making player movement feel and look good
 
-<video controls src="../assets/vid/LichgateSorcerer.mp4" title="Title"></video>
+<video class="post-video-container" controls src="../assets/vid/LichgateSorcerer.mp4" title="Title"></video>
 
 🛠 Technologies: C++, Visual Scripting 

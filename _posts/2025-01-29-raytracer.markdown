@@ -49,20 +49,20 @@ A large boost to performance came from moving the computations to multiple cores
 
 ## Results
 
-![game](../assets/img/rays-cave-render.png)
+<img src="../assets/img/rays-cave-render.png" width="500" height="auto">
 
-![reflection](../assets/img/rays-cave-reflection.png)
+<img src="../assets/img/rays-cave-reflection.png" width="300" height="auto">
 
 
 <div class="post-video-container" style="display:flex; flex-direction: row; justify-content: center; align-items: center">
-  <video muted autoplay style="margin:10px">
+  <video muted autoplay loop style="margin:10px">
     <source src="../assets/vid/rays-cave.mp4" type="video/mp4">
   </video>
 </div>
 
 
 <div>
-  <video muted autoplay style="margin:10px">
+  <video muted autoplay loop style="margin:10px">
     <source src="../assets/vid/rays-cave2.mp4" type="video/mp4">
   </video>
 </div>
