@@ -34,7 +34,7 @@ The engine is open source 😀 -> [Github repository](https://github.com/BredaUn
 - Designed and implemented a **Scene hierarchy system** through the use of components. Which allows for hierarchical relationships and transformations between entities.
 - Integrated an entity editor window using Dear ImGui
 
-![alt text](../assets/img/BlightSpireECS.png)
+<img src="../assets/img/BlightSpireECS.png" width="100%" height="auto">
 
 🛠 Technologies: C++, EnTT, Dear ImGui
 
@@ -47,16 +47,18 @@ The engine is open source 😀 -> [Github repository](https://github.com/BredaUn
 - Integrated FMOD into the engine for **3D spatialized sound** and dynamic audio effects
 - Debugged and optimized audio playing issues, for seamless audio playing
 
-<video class="post-video-container" controls title="Title">
+<div class="post-video-container">
+<video controls title="Title">
     <source src="../assets/vid/BlightSpireAudio.mp4" type="video/mp4">
 </video>
+</div>
 
 🎥 [Audio Showcase]
 🛠 Technologies: C++, FMOD, ECS, CMake
 
 ## Gameplay programming 🎮
 
-🔥 *Developed core system to aid in gameplay programming*
+🔥 *Developed core systems to aid in gameplay programming*
 
 ### Key Features & Challenges
 
@@ -75,9 +77,9 @@ The engine is open source 😀 -> [Github repository](https://github.com/BredaUn
 - Inspector module for inspecting and altering values on the fly
 - Collaborated on **modular engine architecture**
 
-![Engine modules](../assets/img/BlightspireModules.png)
+<img src="../assets/img/BlightspireModules.png" width="100%" height="auto">
 
-![Inspector](../assets/img/BlighspireInspector.png)
+<img src="../assets/img/BlighspireInspector.png" width="100%" height="auto">
 
 🛠 Technologies: C++, Tracy, Dear ImGui, CMake
 
