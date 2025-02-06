@@ -1000,6 +1000,14 @@ table tfoot td {
   margin: 0 0 10px;
 }
 
+.project-media {
+  width: 100%;
+  height: auto;
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+  margin-bottom: 15px;
+}
+
 .content-box {
   padding: 20px;
   padding-left: 260px;

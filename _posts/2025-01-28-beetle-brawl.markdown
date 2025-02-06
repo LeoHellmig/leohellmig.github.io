@@ -12,7 +12,7 @@ duration: 8 weeks
 
 ---
 
-<video controls volume="0.5" max-width="100%" height="auto">
+<video class="project-media" controls volume="0.5" max-width="100%" height="auto">
   <source src="../assets/vid/beetle-brawl.mp4" type="video/mp4">
 </video>
 

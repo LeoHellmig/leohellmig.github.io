@@ -54,14 +54,14 @@ A large boost to performance came from moving the computations to multiple cores
 <img src="../assets/img/rays-cave-reflection.png" max-width="100%" height="auto">
 
 
-<div class="post-video-container" style="display:flex; flex-direction: row; justify-content: center; align-items: center">
+<div class="project-media" style="display:flex; flex-direction: row; justify-content: center; align-items: center">
   <video max-width="100%" height="auto" muted autoplay loop style="margin:10px">
     <source src="../assets/vid/rays-cave.mp4" type="video/mp4">
   </video>
 </div>
 
 
-<div class="post-video-container" style="display:flex; flex-direction: row; justify-content: center; align-items: center">
+<div class="project-media" style="display:flex; flex-direction: row; justify-content: center; align-items: center">
   <video max-width="100%" height="auto" muted autoplay loop style="margin:10px">
     <source src="../assets/vid/rays-cave2.mp4" type="video/mp4">
   </video>
