@@ -12,11 +12,9 @@ duration: 8 weeks
 
 ---
 
-<div max-width="100%" height="auto">
-  <video controls volume="0.5">
-    <source src="../assets/vid/beetle-brawl.mp4" type="video/mp4">
-  </video>
-</div>
+<video controls volume="0.5" max-width="100%" height="auto">
+  <source src="../assets/vid/beetle-brawl.mp4" type="video/mp4">
+</video>
 
 [Beetle Brawl on Itch.io](https://harrybaas.itch.io/beetlebrawl)
 

@@ -55,14 +55,14 @@ A large boost to performance came from moving the computations to multiple cores
 
 
 <div class="post-video-container" style="display:flex; flex-direction: row; justify-content: center; align-items: center">
-  <video muted autoplay loop style="margin:10px">
+  <video max-width="100%" height="auto" muted autoplay loop style="margin:10px">
     <source src="../assets/vid/rays-cave.mp4" type="video/mp4">
   </video>
 </div>
 
 
 <div class="post-video-container" style="display:flex; flex-direction: row; justify-content: center; align-items: center">
-  <video muted autoplay loop style="margin:10px">
+  <video max-width="100%" height="auto" muted autoplay loop style="margin:10px">
     <source src="../assets/vid/rays-cave2.mp4" type="video/mp4">
   </video>
 </div>
