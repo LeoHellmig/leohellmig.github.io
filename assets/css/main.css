@@ -995,6 +995,49 @@ table tfoot td {
   background-color: #515151;
 }
 
+.about .author-links {
+  margin: 0 0 10px;
+  padding-bottom: 15px;
+  font-size: 16px;
+  color: #333030;
+  font-weight: 700;
+  display: grid;
+  justify-content: center;
+  position: relative;
+}
+
+.about .author-title
+{
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.about .author-link
+{
+  text-decoration: none;
+}
+
+.about .author-link:visited
+{
+  color: inherit;
+}
+
+.about .author-links::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+      -ms-transform: translateX(-50%);
+          transform: translateX(-50%);
+  bottom: 0;
+  display: block;
+  width: 7px;
+  height: 7px;
+  -webkit-border-radius: 100%;
+          border-radius: 100%;
+  background-color: #515151;
+}
+
 .about p {
   font-size: 16px;
   margin: 0 0 10px;
@@ -1008,9 +1051,17 @@ table tfoot td {
   margin-bottom: 15px;
 }
 
+.post-link {
+  width: 100%;
+  display: block;
+  text-decoration: none;
+  color: inherit;
+}
+
 .content-box {
   padding: 20px;
   padding-left: 260px;
+  width: 100%;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;

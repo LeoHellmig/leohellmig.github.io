@@ -7,6 +7,9 @@ img: lichgate.png # Add image post (optional)
 tags: [C++, Engine, Animation, Gameplay] # add tag
 
 team_size: 10
+prs: 6
+dps: 4
+vas: 0
 platforms: Windows & PS5
 duration: 16 weeks
 

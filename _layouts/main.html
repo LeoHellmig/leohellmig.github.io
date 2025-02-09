@@ -8,7 +8,16 @@ layout: default
       <div class="cover-author-image">
         <a href="{{site.baseurl}}/"><img src="{{site.baseurl}}/assets/img/{% if site.author-img %}{{site.author-img}}{% endif %}" alt="{{site.author}}"></a>
       </div>
-      <div class="author-name">{{site.author}}</div>
+      <div class="author-name">
+        {{site.author}}
+        <br>
+        <span class="author-title">Engine Programmer</span>
+      </div>
+      <div class="author-links">
+        <a class="author-link" href="../assets/resume_leo_hellmig.pdf" target="_blank">📃 Resume</a>
+        <a class="author-link" href="http://github.com/LeoHellmig" target="_blank">👨‍💻 Github</a>
+        <a class="author-link" href="https://in.linkedin.com/in/LeoHellmig" target="_blank">🔗 LinkedIn</a>
+      </div>
       <p>{{site.about-author}}</p>
     </div>
   </header> <!-- End Header -->

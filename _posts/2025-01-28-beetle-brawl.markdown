@@ -7,6 +7,9 @@ img: beetle-brawl0.png # Add image post (optional)
 tags: [Unreal Engine, Game, Group Project, Jira, Perforce] # add tag
 
 team_size: 14
+prs: 3
+dps: 5
+vas: 6
 platforms: Windows
 duration: 8 weeks
 
