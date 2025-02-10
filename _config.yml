@@ -33,6 +33,10 @@ plugins:
   - jekyll-paginate
   - jemoji
 
+kramdown:
+  input: GFM
+  hard_wrap: false
+
 paginate: 8
 paginate_path: "/page/:num"
 

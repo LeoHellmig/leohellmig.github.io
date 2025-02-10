@@ -1056,23 +1056,24 @@ table tfoot td {
 .team-size-tooltip {
   position: relative;
   cursor: pointer;
+  display: inline-block;
 }
 
 .tooltip {
-  visibility: hidden;
-  background-color: black;
-  color: white;
-  text-align: center;
-  padding: 5px 10px;
-  border-radius: 5px;
-  font-size: 16px;
   position: absolute;
-  bottom: 120%; /* Positions the tooltip above the text */
+  bottom: 120%;
   left: 50%;
   transform: translateX(-50%);
+  background-color: black;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-size: 12px;
   white-space: nowrap;
   opacity: 0;
+  visibility: hidden;
   transition: opacity 0.2s ease-in-out;
+  z-index: 1000;
 }
 
 .tooltip::after {
