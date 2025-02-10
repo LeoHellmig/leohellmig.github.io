@@ -1,10 +1,10 @@
 ---
 layout: post
-title: Blightspire
+title: Custom Engine & Blightspire
 date: 2024-09-02 00:00:00 +0100
 description: Blightspire is a game developed in a student made custom game engine. # Add post description (optional)
 img: Blightspire.png # Add image post (optional)
-tags: [C++, Custom engine, FMOD, CMake, Tracy, EnTT] # add tag
+tags: [C++, Custom Engine, FMOD, CMake, Tracy, EnTT] # add tag
 
 team_size: 10
 dps: 1
@@ -15,7 +15,7 @@ duration: 16/32 weeks
 
 ---
 
-Blightspire is currently still in development.
+Blightspire is being created in our WIP custom engine.
 It is halfway through its development cycle and is starting its production phase soon.
 
 So far the focus has been on the engine which the game will be built on top of.

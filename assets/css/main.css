@@ -1051,6 +1051,44 @@ table tfoot td {
   margin-bottom: 15px;
 }
 
+.team-size-tooltip {
+  position: relative;
+  cursor: pointer;
+}
+
+.tooltip {
+  visibility: hidden;
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-size: 16px;
+  position: absolute;
+  bottom: 120%; /* Positions the tooltip above the text */
+  left: 50%;
+  transform: translateX(-50%);
+  white-space: nowrap;
+  opacity: 0;
+  transition: opacity 0.2s ease-in-out;
+}
+
+.tooltip::after {
+  content: " ";
+  position: absolute;
+  top: 100%; /* At the bottom of the tooltip */
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: black transparent transparent transparent;
+}
+
+.team-size-tooltip:hover .tooltip {
+  visibility: visible;
+  opacity: 1;
+}
+
 .post-link {
   width: 100%;
   display: block;

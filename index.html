@@ -14,7 +14,17 @@ layout: main
     
     <!-- Project Metadata -->
     <div class="post-meta">
-      {% if post.team_size %}<span class="meta-item"><strong>👥Team Size:</strong> {{ post.team_size }}</span> &nbsp;&nbsp;{% endif %}
+      {% if post.team_size %}
+      <span class="meta-item team-size-tooltip">
+        <strong>👥Team Size:</strong> {{ post.team_size }}
+        {% if post.team_size %}
+          {% assign team_size_number = post.team_size | times: 1 %}
+            {% if team_size_number > 0 %}
+              <span class="tooltip">{% if post.prs or post.dps or post.vas %}{% if post.prs %}🛠️{{post.prs}} {% endif %}{% if post.dps %},🎮{{post.dps}} {% endif %}{% if post.vas %},🎨{{post.vas}}{% endif %}{% endif %}</span>
+            {% endif %}
+          {% endif %}
+      </span> &nbsp;&nbsp;
+      {% endif %}
       {% if post.duration %}<span class="meta-item"><strong>⌛Duration:</strong> {{ post.duration }}</span> &nbsp;&nbsp;{% endif %}
       {% if post.platforms %}<span class="meta-item"><strong>💻Platforms:</strong> {{ post.platforms | join: ", " }}</span> &nbsp;&nbsp;{% endif %}
       {% if post.tags %}<span class="meta-item"><strong>🏷️Tags:</strong> {{ post.tags | join: ", " }}</span>{% endif %}

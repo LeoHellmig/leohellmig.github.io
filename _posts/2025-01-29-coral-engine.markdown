@@ -4,7 +4,7 @@ title: Coral Engine & Lichgate
 date: 2024-02-19 00:00:00 +0100
 description: Coral engine made by 6 students, and Lichgate built within Coral engine by 10 students. # Add post description (optional)
 img: lichgate.png # Add image post (optional)
-tags: [C++, Engine, Animation, Gameplay] # add tag
+tags: [C++, Custom Engine, Game, Animations, FMOD, Gameplay] # add tag
 
 team_size: 10
 prs: 6
@@ -23,11 +23,14 @@ duration: 16 weeks
   <iframe width="560" height="315" src="https://www.youtube.com/embed/QzNdgcYAYl4?si=wdbvH2UHfL4PfGgw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 </div>
 
-Coral Engine is a custom engine created by 6 students. 
-Which was later used to create Lichgate, created by 10 students.
+I worked on Coral Engine with 5 other programmers.
 
-Coral is open source 😀 -> 
+
+Coral Engine is open source 😀 -> 
 [Link to github repository](https://github.com/GuusKemperman/CoralEngine)
+
+Lichgate is on Itch.io 😎 -> 
+[Lichgate on Itch.io](https://buas.itch.io/lichgate)
 
 
 # My Contributions
@@ -59,7 +62,7 @@ Coral is open source 😀 ->
 
 🛠 Technologies: C++, EnTT, Assimp, DirectX 12, PS5 renderer, hlsl
 
-<video class="project-media" max-width="100%" height="auto" controls src="../assets/vid/LichgateSkeleton.mp4" title="Title"></video> 
+<video class="project-media" max-width="100%" height="auto" autoplay muted src="../assets/vid/LichgateSkeleton.mp4"></video> 
 
 ## Audio Module 🎵
 
@@ -74,7 +77,7 @@ Coral is open source 😀 ->
 
 Note that the sound design was not done by me.
 
-<video class="project-media" max-width="100%" height="auto" controls src="../assets/vid/LichgateGameplay.mp4" title="Title"></video>
+<video class="project-media" max-width="100%" height="auto" controls src="../assets/vid/LichgateGameplay.mp4"></video>
 
 🛠 Technologies: C++, EnTT, FMOD
 
@@ -87,6 +90,6 @@ Note that the sound design was not done by me.
 - Smooth camera and player movement
 - Tweaking and making player movement feel and look good
 
-<video class="project-media" max-width="100%" height="auto" controls src="../assets/vid/LichgateSorcerer.mp4" title="Title"></video>
+<video class="project-media" max-width="100%" height="auto" autoplay muted src="../assets/vid/LichgateSorcerer.mp4"></video>
 
 🛠 Technologies: C++, Visual Scripting 
