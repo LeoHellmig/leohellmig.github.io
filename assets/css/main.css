@@ -1014,12 +1014,14 @@ table tfoot td {
 
 .about .author-link
 {
+  color: inherit;
   text-decoration: none;
 }
 
 .about .author-link:visited
 {
   color: inherit;
+  text-decoration: none;
 }
 
 .about .author-links::after {

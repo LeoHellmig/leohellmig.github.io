@@ -20,7 +20,7 @@ layout: main
         {% if post.team_size %}
           {% assign team_size_number = post.team_size | times: 1 %}
             {% if team_size_number > 0 %}
-              <span class="tooltip">{% if post.prs or post.dps or post.vas %}{% if post.prs %}🛠️{{post.prs}} {% endif %}{% if post.dps %},🎮{{post.dps}} {% endif %}{% if post.vas %},🎨{{post.vas}}{% endif %}{% endif %}</span>
+              <div class="tooltip">{% if post.prs or post.dps or post.vas %}{% if post.prs %}🛠️{{post.prs}} {% endif %}{% if post.dps %},🎮{{post.dps}} {% endif %}{% if post.vas %},🎨{{post.vas}}{% endif %}{% endif %}</div>
             {% endif %}
           {% endif %}
       </span> &nbsp;&nbsp;
