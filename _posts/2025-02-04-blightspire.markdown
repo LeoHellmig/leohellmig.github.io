@@ -3,7 +3,7 @@ layout: post
 title: Custom Engine & Blightspire
 date: 2024-09-02 00:00:00 +0100
 description: Blightspire is a game developed in a student made custom game engine. # Add post description (optional)
-img: Blightspire.png # Add image post (optional)
+img: Blightspire1.png # Add image post (optional)
 tags: [C++, Custom Engine, FMOD, CMake, Tracy, EnTT] # add tag
 
 team_size: 10
@@ -66,6 +66,10 @@ The engine is open source 😀 -> [Github repository](https://github.com/BredaUn
 - Created scripting bindings for various modules to extend the Engine API in scripts
 - Used Wren scripting to create gameplay features. 
 - Player weaponry & abilities, camera, enemy movement, enemy state machine.
+
+<video class="project-media" max-width="100%" height="auto" controls title="Title">
+    <source src="../assets/vid/BlightSpireEnemy.mp4" type="video/mp4">
+</video>
 
 🛠 Technologies: C++, ECS, Wren
 
