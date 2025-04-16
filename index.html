@@ -29,9 +29,7 @@ layout: main
       {% if post.platforms %}<span class="meta-item"><strong>💻Platforms:</strong> {{ post.platforms | join: ", " }}</span> &nbsp;&nbsp;{% endif %}
       {% if post.tags %}<span class="meta-item"><strong>🏷️Tags:</strong> {{ post.tags | join: ", " }}</span>{% endif %}
     </div>
-    
-    <span class="post-date">{{post.date | date: '%Y, %b %d'}}&nbsp;&nbsp;&nbsp;—&nbsp;</span>
-    <span class="post-words">{% capture words %}{{ post.content | number_of_words }}{% endcapture %}{% unless words contains "-" %}{{ words | plus: 250 | divided_by: 250 | append: " minute read" }}{% endunless %}</span>
+    <span class="post-date">{{post.date | date: '%Y'}}&nbsp;</span>
   </div>
 </article>
 </a>
