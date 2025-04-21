@@ -4,7 +4,7 @@ title: Custom Engine & Blightspire
 date: 2024-09-02 00:00:00 +0100
 description: Blightspire is a game developed in a student made custom game engine. # Add post description (optional)
 img: Blightspire1.png # Add image post (optional)
-tags: [C++, Custom Engine, FMOD, CMake, Tracy, EnTT] # add tag
+tags: [C++, Custom Engine, FMOD, CMake, Tracy profiler, EnTT, Gameplay] # add tag
 
 team_size: 10
 dps: 1
@@ -48,6 +48,7 @@ The engine is open source 😀 -> [Github repository](https://github.com/BredaUn
 
 - Integrated FMOD into the engine for **3D spatialized sound** and dynamic audio effects
 - Debugged and optimized audio playing issues, for seamless audio playing
+- The game uses **FMOD Events** for audio almost exclusively.
 
 <video class="project-media" max-width="100%" height="auto" controls title="Title">
     <source src="../assets/vid/BlightSpireAudio.mp4" type="video/mp4">
@@ -62,9 +63,9 @@ The engine is open source 😀 -> [Github repository](https://github.com/BredaUn
 
 ### Key Features & Challenges
 
-- Implemented various systems to aid in future gameplay programming
-- Created scripting bindings for various modules to extend the Engine API in scripts
-- Used Wren scripting to create gameplay features. 
+- Implemented various systems to aid in future gameplay programming.
+- Created **scripting bindings** for various modules to extend the **Engine API in scripts**
+- Used Wren **scripting** to create **gameplay features**. 
 - Player weaponry & abilities, camera, enemy movement, enemy state machine.
 
 <video class="project-media" max-width="100%" height="auto" controls title="Title">
@@ -79,12 +80,12 @@ The engine is open source 😀 -> [Github repository](https://github.com/BredaUn
 
 ### Key Features & Challenges
 
-- Integrated Tracy Profiler in the engine
-- Inspector module for inspecting and altering values on the fly
+- Integrated **Tracy Profiler** in the engine
+- Inspector module **debug tool** for inspecting and altering values on the fly
 - Collaborated on **modular engine architecture**
 
-<img src="../assets/img/BlightspireModules.png" max-width="100%" height="auto">
-
 <img src="../assets/img/BlighspireInspector.png" max-width="100%" height="auto">
+
+<img src="../assets/img/TracyProfiler.png" max-width="100%" height="auto">
 
 🛠 Technologies: C++, Tracy, Dear ImGui, CMake
