@@ -17,7 +17,7 @@ layout: main
     <div class="wrap-content">
       <header class="header-page">
         <h1 class="page-title">{{page.title}}</h1>
-        <div class="page-date"><span>{{page.date | date: '%Y, %b %d'}}&nbsp;&nbsp;&nbsp;&nbsp;</span></div>
+        <div class="page-date"><span>{{page.date | date: '%Y'}}&nbsp;&nbsp;&nbsp;&nbsp;</span></div>
         <div class="post-meta">
           {% if page.team_size %}<span class="meta-item"><strong>👥Team Size:</strong> {{ page.team_size }} {% if page.prs or page.dps or page.vas %}({% if page.prs %}🛠️{{page.prs}} {% endif %}{% if page.dps %},🎮{{page.dps}} {% endif %}{% if page.vas %},🎨{{page.vas}}{% endif %}){% endif %}</span> &nbsp;&nbsp;{% endif %}
           {% if page.duration %}<span class="meta-item"><strong>⌛Duration:</strong> {{ page.duration }}</span> &nbsp;&nbsp;{% endif %}
