@@ -26,6 +26,19 @@ My main goal in this project was to create a small tool which could be easily em
 
 <img src="../assets/img/dungeon demo.gif" alt="Dungeon Demo">
 
+## Generation in other games and comparison to industry standard
+
+Current industry standard games have complex algorithms tied to gameplay constraints set up by designers.
+
+My library instead serves as a springboard for programmers or technical designers that want to get their hands dirty in making a dungeon layout using graphs.  
+
+The games that I mentioned previously have complex rules and constraints.
+Dead Cells and Enter the Gungeon design the flow of the level first as a directed graph with vertices containing information what the room type is. They then place randomly selected rooms from the pool for that room type. These approaches to dungeon generation are fully fletched and have seen a lot of design work.
+
+The Binding of Isaac is an interesting exception as it using a unique algorithm where placing rooms is done with expansion of the level. But it has constraints which make sure that special level pieces have a place to go. Which is done by ensuring dead-ends are being generated. 
+
+These approaches to dungeon generation vary greatly from my library but are very interesting, I have included links at the end of this blogpost.
+
 ## Dungeon generation
 
 The dungeon generation process consists of 5 steps:
@@ -221,27 +234,54 @@ Generation settings:
 - Generate Gameplay Content: Wether vertices should have a room type
 - Treasure Room Percentage: What percentage of room should be a treasure room. From none 0.0 to 1.0 all. 
 
+Usage in C++: 
+
+```cpp
+#include "dungeonerator.hpp"
+
+int main() {
+  DungeonGenerator::GenerationData generationData(30, 5, 1.0, {1.0f, 1.0f}, {100.0f, 100.0f}, false, true, 0.3f);
+  DungeonGenerator::Dungeon myDungeon(generationData);
+
+  return 0;
+}
+```
+
+## Possible expansions
+
+The application can run fast enough to generate dungeon that the user might want. A dungeon of ~70000 vertices can be generated in a second. There is still room for improvement on performance with generating points as it takes up 75% of the execution time.
+Adding other ways to generate points would give the user more control over how they want their dungeon to look like. By using a random uniform distribution of points or using a Halton sequence.
+
+In Addition to this, more options for customizing the dungeon could be added. A lock and key system or generating points over a density map. Or to generate elbow shaped or spline corridors.
+
+And lastly adding an option for 3D dungeon design as the current implementation is fully 2 dimensional. 
 
 ## Final Thoughts
 
 I loved working on this project, as it is something that fascinates me. Procedural generation has many applications and even more variations. 
 
-The application can run fast enough to generate dungeon that the user might want. A dungeon of ~70000 vertices can be generated in a second. There is still room for improvement on performance with generating points as it takes up 75% of the execution time.
+This project has taught me a lot when it comes to graphs, and algorithms to work with graphs.
 
-In Addition to this, more options for customizing the dungeon could be added. A lock and key system or generating points over a density map. 
-
-And lastly adding an option for 3D dungeon design as the current implementation is fully 2 dimensional. 
+In conclusion, with further development this tool can become even greater and add more functionality for designers.
 
 ## Reference and Further Reading
 
-https://github.com/abellgithub/delaunator-cpp 
+### Games mentioned previously
 
-https://github.com/corporateshark/poisson-disk-generator
+[Dead Cells - deepnight.net](https://deepnight.net/tutorial/the-level-design-of-dead-cells-a-hybrid-approach/)
 
-https://en.wikipedia.org/wiki/Minimum_spanning_tree 
+[Binding of Isaac - Bindong of Isaac wiki](https://bindingofisaacrebirth.fandom.com/wiki/Level_Generation)
 
-https://en.wikipedia.org/wiki/Prim%27s_algorithm
+[Enter the Gungeon - boristhebrave.com](https://www.boristhebrave.com/2019/07/28/dungeon-generation-in-enter-the-gungeon/)
 
-https://github.com/GuusKemperman/CoralEngine
+### Other technical sources used
 
-https://github.com/LeoHellmig/Dungeonerator 
+<a href="https://github.com/abellgithub/delaunator-cpp" target="_blank">Delaunator cpp github</a>
+
+<a href="https://github.com/corporateshark/poisson-disk-generator" target="_blank">Poisson disk Generator github</a>
+
+<a href="https://en.wikipedia.org/wiki/Minimum_spanning_tree" target="_blank">Minimum spanning tree on wikipedia</a>
+
+<a href="https://en.wikipedia.org/wiki/Prim%27s_algorithm" target="_blank">Prim's algorithm on wikipedia</a>
+
+<a href="https://github.com/GuusKemperman/CoralEngine" target="_blank">Coral Engine github, used for demo's in this blogpost</a>
